@@ -1,0 +1,323 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas.ttf);
+}
+body
+{
+    background-image: url(imgs/fondoP.jpg);
+    font-family: Bebas;
+}
+.inicio
+{
+    padding:50px;
+    margin:150px;
+    text-align:center;
+}
+
+ img
+{
+    width:200px;
+    height:200px;
+    
+}
+.inicio button 
+{
+    border-radius:8px;
+    font-size: 50px;
+    font-family:Bebas;
+    border:groove #D14D72;
+    background-color: transparent;
+}
+
+.sala
+{
+  
+    padding-left: 150px;
+    padding-right:150px;
+    text-align:center;
+    display: inline-block;
+}
+.sala button
+{
+    border-radius:8px;
+    display:none;
+    font-size: 35px;
+    border:groove #F99417;
+    background-color:transparent;
+}
+.sala h1
+{
+    display:none;
+    font-size: 35px;
+}
+.cuarto
+{
+    margin:50px;
+    padding:50px;
+    text-align:center;
+    display: inline-block;
+}
+.cuarto button
+{
+    border-radius:8px;
+    display:none;
+    font-size: 30px;
+    border:groove #39B5E0;
+    background-color:transparent;
+    display: inline block;
+ }  
+ .cuarto h1
+ {
+    display:none;
+}
+.baño
+{
+    margin:50px;
+    padding:50px;
+    text-align:right;
+    display: inline-block
+}
+.baño button
+{
+    border-radius: 8px;
+    display:none;
+    font-size:30px;
+    border:groove #39B5E0;
+    background-color: transparent;
+ }
+ .baño h1
+ {
+  display:none;
+  
+ }    
+ .cochera
+ {
+   
+    
+    padding-left:150px;
+    padding-right:150px;
+    text-align:right;
+    display:inline-block
+  }
+    
+.cochera button
+{
+    border-radius: 8px;
+    display:none;
+    font-size:30px;
+    border:groove #39B5E0;
+    background-color: transparent;
+}
+ .cochera h1
+ {
+  display:none; 
+}
+.pasillo
+{
+    margin:50px;
+    padding:50px;
+    text-align:right;
+    display: inline-block
+}
+.pasillo button
+{
+    border-radius: 8px;
+    display:none;
+    font-size:35px;
+    border:groove #39B5E0;
+    background-color: transparent;
+}
+.pasillo h1
+{
+    display:none;
+}
+
+.cocina
+{
+    margin:50px;
+    padding:50px;
+    text-align:right;
+    display: inline-block;
+}
+.cocina button
+{
+    border-radius: 8px;
+    display:none;
+    font-size:30px;
+    border:groove #39B5E0;
+    background-color: transparent;
+}
+.cocina h1
+{
+    display:none;
+}
+.Jardin
+{
+    margin:50px;
+    padding:50px;
+    text-align:left;
+    display: inline-block;
+    text-align:center;
+}
+.Jardin button
+{
+    border-radius: 8px;
+    display:none;
+    font-size:30px;
+    border:groove #39B5E0;
+    background-color: transparent;
+}
+.Jardin h1
+{
+    display:none;
+}
+
+#livingRoomLED
+{
+    margin:150px;
+    padding:50;
+    padding-left:150px;
+    text-align:center;
+    display: inline-block;
+ }   
+#livingRoomLED button
+{
+    border-radius:5px;
+    display:none;
+    font-size:39px;
+    border:groove pink;
+    background-color:transparent;
+}
+#livingRoomLED button:hover
+{
+    background:pink;
+}
+
+#Room
+{
+    margin:5px;
+    padding-left:50px;
+    text-align:center;
+    display: inline-block;
+
+}
+
+#Room button
+{
+    border-radius:5px;
+    display:none;
+    font-size:39px;
+    border:groove pink;
+    background-color:transparent;
+}
+ #Room button:hover
+{
+    background:pink;
+}  
+
+#RestRoom
+{
+    margin:5px;
+    padding-left: 4px;
+    text-align:center;
+    display: inline-block;
+}
+#RestRoom button
+{
+    border-radius:5px;
+    display:none;
+    font-size:39px;
+    border:groove pink;
+    background-color:transparent;
+}
+ #RestRoom button:hover
+{
+    background:pink;
+}
+#Garage
+{
+    margin:5px;
+    padding-left: 4px;
+    text-align:center;
+    display: inline-block;
+   }
+#Garage button  
+  {
+    border-radius:5px;
+    display:none;
+    font-size:39px;
+    border:groove pink;
+    background-color:transparent;
+    position: flex;
+    display: inline;
+    text-align:center;
+   } 
+ #Garage button:hover
+ {
+  background:pink;  
+  }
+  
+  #Hallway
+  {
+    margin:5px;
+    padding-left: 4px;
+    text-align:center;
+    display: inline-block;
+   }
+   #Hallway button
+{
+        
+    border-radius:5px;
+    display:none;
+    font-size:39px;
+    border:groove pink;
+    background-color:transparent;
+   }
+   #Hallway button:hover
+   {
+        background:pink;
+   }
+#Kitchen
+{
+
+    margin:5px;
+    padding-left: 4px;
+    text-align:center;
+    display: inline-block;
+}
+#Kitchen button
+{
+    border-radius:5px;
+    display:none;
+    font-size:39px;
+    border:groove pink;
+    background-color:transparent;
+}  
+#Kitchen button:hover
+{
+    background:pink;
+ }
+ #Garden 
+ {
+    margin:5px;
+    padding-left: 4px;
+    text-align:center;
+    display: inline-block;
+ }   
+ #Garden button
+ {  
+    border-radius:5px;
+    display:none;
+    font-size:39px;
+    border:groove pink;
+    background-color:transparent;
+    
+ }
+ #Garden button:hover
+ {
+    background:pink;
+  }  
+ 
+ 
+ 
+
